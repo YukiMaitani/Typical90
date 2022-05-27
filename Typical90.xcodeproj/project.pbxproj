@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6D4E7389283E942E00A6FBE2 /* 004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E7388283E942E00A6FBE2 /* 004.swift */; };
+		6D4E738D28411D4000A6FBE2 /* 014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E738C28411D4000A6FBE2 /* 014.swift */; };
+		6D4E738F28411D7200A6FBE2 /* 010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E738E28411D7200A6FBE2 /* 010.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D4E7371283E93D500A6FBE2 /* Typical90.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Typical90.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4E7388283E942E00A6FBE2 /* 004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 004.swift; sourceTree = "<group>"; };
+		6D4E738C28411D4000A6FBE2 /* 014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 014.swift; sourceTree = "<group>"; };
+		6D4E738E28411D7200A6FBE2 /* 010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 010.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				6D4E738A283E943700A6FBE2 /* 001~010 */,
+				6D4E738B28411D2400A6FBE2 /* 011~020 */,
 			);
 			path = Typical90;
 			sourceTree = "<group>";
@@ -54,8 +59,17 @@
 			isa = PBXGroup;
 			children = (
 				6D4E7388283E942E00A6FBE2 /* 004.swift */,
+				6D4E738E28411D7200A6FBE2 /* 010.swift */,
 			);
 			path = "001~010";
+			sourceTree = "<group>";
+		};
+		6D4E738B28411D2400A6FBE2 /* 011~020 */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E738C28411D4000A6FBE2 /* 014.swift */,
+			);
+			path = "011~020";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4E738F28411D7200A6FBE2 /* 010.swift in Sources */,
 				6D4E7389283E942E00A6FBE2 /* 004.swift in Sources */,
+				6D4E738D28411D4000A6FBE2 /* 014.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
